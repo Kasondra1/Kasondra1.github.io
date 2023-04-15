@@ -9,6 +9,8 @@
     line-height:inherit;
     color:inherit;
     background:white;
+    max-width:800px;
+    margin:0 auto;
  }
 html,body{
     font-family: "Helvetica Neue"Arial, Helvetica, sans-serif;
@@ -31,6 +33,15 @@ h1{
 img{
     border-radius:25%;
 }
+section{
+    border-top:2px border-box rgb(140, 119, 140);
+    padding:50px 0;
+    padding-bottom:50px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+
+}
 
 .hero{
     outline:1px solid clear;
@@ -38,6 +49,8 @@ img{
     display:flex;
     flex-direction:column;
     justify-content:center;
+    border:0;
+    padding:0;
 }
     .hero img{
         width:100%;
